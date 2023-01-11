@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Player = ({ hp, attack }) => (
+const Player = ({ Php}) => (
     <div>
-        <p>PV du joueur : {hp}</p>
-        <button onClick={attack}>Attaquer</button>
+        <p>Player's HP : {Php}</p>
     </div>
 );
 
-export default { Player };
+export default Player;

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Enemy = ({ hp }) => (
+const Enemy = ({ Ehp }) => (
     <div>
-        <p>PV de l'ennemi : {hp}</p>
+        <p>Enemy's HP : {Ehp}</p>
     </div>
 );
 
-export default { Enemy };
+export default Enemy;
