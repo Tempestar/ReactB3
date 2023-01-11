@@ -17,9 +17,9 @@ const App = () => {
             <p>Objets : {gameState.itemList.join(', ')}</p>
 
             {/* Ajouter des boutons pour les actions courantes */}
-            <button onClick={() => setGameState({ ...gameState, Ehp: gameState.Ehp - 10 })}>Attaquer</button>
-            <button onClick={() => console.log("Utiliser un objet")}>Utiliser un objet</button>
-            <button onClick={() => console.log("Se déplacer")}>Se déplacer</button>
+            <button onClick={() => setGameState({ ...gameState, Ehp: gameState.Ehp - 10 })}>Attack</button>
+            <button onClick={() => console.log("Defend")}>Defend</button>
+            <button onClick={() => console.log("Flee")}>Flee</button>
         </div>
     );
 }
